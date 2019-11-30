@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/ServerManager.cpp
+ServerManager.h
+/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/ServerManager.h
+
+/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/ServerManager.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+
+/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/main.cpp
+ServerManager.h
+/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/ServerManager.h
+iostream
+-
+fstream
+-
+string
+-
+

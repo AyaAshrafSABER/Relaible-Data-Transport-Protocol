@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/ClientSide.dir/all:
 	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/depend
 	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ClientSide"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target ClientSide"
 .PHONY : CMakeFiles/ClientSide.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ClientSide.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ClientSide.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ClientSide.dir/rule

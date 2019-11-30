@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ServerSide.dir/PacketHandler.cpp.o"
+  "CMakeFiles/ServerSide.dir/Receiver.cpp.o"
+  "CMakeFiles/ServerSide.dir/Sender.cpp.o"
+  "CMakeFiles/ServerSide.dir/ServerManager.cpp.o"
   "CMakeFiles/ServerSide.dir/main.cpp.o"
   "ServerSide"
   "ServerSide.pdb"

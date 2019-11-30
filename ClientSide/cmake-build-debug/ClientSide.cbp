@@ -84,6 +84,33 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/ClientManager.cpp">
+			<Option target="ClientSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/ClientManager.h">
+			<Option target="ClientSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Packet.h">
+			<Option target="ClientSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/PacketHandler.cpp">
+			<Option target="ClientSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/PacketHandler.h">
+			<Option target="ClientSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Receiver.cpp">
+			<Option target="ClientSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Receiver.h">
+			<Option target="ClientSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Sender.cpp">
+			<Option target="ClientSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Sender.h">
+			<Option target="ClientSide"/>
+		</Unit>
 		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/main.cpp">
 			<Option target="ClientSide"/>
 		</Unit>

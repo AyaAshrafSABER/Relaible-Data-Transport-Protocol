@@ -70,17 +70,77 @@ CMakeFiles/ClientSide.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClientSide.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/main.cpp -o CMakeFiles/ClientSide.dir/main.cpp.s
 
+CMakeFiles/ClientSide.dir/ClientManager.cpp.o: CMakeFiles/ClientSide.dir/flags.make
+CMakeFiles/ClientSide.dir/ClientManager.cpp.o: ../ClientManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ClientSide.dir/ClientManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClientSide.dir/ClientManager.cpp.o -c /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/ClientManager.cpp
+
+CMakeFiles/ClientSide.dir/ClientManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClientSide.dir/ClientManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/ClientManager.cpp > CMakeFiles/ClientSide.dir/ClientManager.cpp.i
+
+CMakeFiles/ClientSide.dir/ClientManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClientSide.dir/ClientManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/ClientManager.cpp -o CMakeFiles/ClientSide.dir/ClientManager.cpp.s
+
+CMakeFiles/ClientSide.dir/Sender.cpp.o: CMakeFiles/ClientSide.dir/flags.make
+CMakeFiles/ClientSide.dir/Sender.cpp.o: ../Sender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ClientSide.dir/Sender.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClientSide.dir/Sender.cpp.o -c /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Sender.cpp
+
+CMakeFiles/ClientSide.dir/Sender.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClientSide.dir/Sender.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Sender.cpp > CMakeFiles/ClientSide.dir/Sender.cpp.i
+
+CMakeFiles/ClientSide.dir/Sender.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClientSide.dir/Sender.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Sender.cpp -o CMakeFiles/ClientSide.dir/Sender.cpp.s
+
+CMakeFiles/ClientSide.dir/Receiver.cpp.o: CMakeFiles/ClientSide.dir/flags.make
+CMakeFiles/ClientSide.dir/Receiver.cpp.o: ../Receiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ClientSide.dir/Receiver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClientSide.dir/Receiver.cpp.o -c /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Receiver.cpp
+
+CMakeFiles/ClientSide.dir/Receiver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClientSide.dir/Receiver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Receiver.cpp > CMakeFiles/ClientSide.dir/Receiver.cpp.i
+
+CMakeFiles/ClientSide.dir/Receiver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClientSide.dir/Receiver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Receiver.cpp -o CMakeFiles/ClientSide.dir/Receiver.cpp.s
+
+CMakeFiles/ClientSide.dir/PacketHandler.cpp.o: CMakeFiles/ClientSide.dir/flags.make
+CMakeFiles/ClientSide.dir/PacketHandler.cpp.o: ../PacketHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ClientSide.dir/PacketHandler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClientSide.dir/PacketHandler.cpp.o -c /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/PacketHandler.cpp
+
+CMakeFiles/ClientSide.dir/PacketHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClientSide.dir/PacketHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/PacketHandler.cpp > CMakeFiles/ClientSide.dir/PacketHandler.cpp.i
+
+CMakeFiles/ClientSide.dir/PacketHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClientSide.dir/PacketHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/PacketHandler.cpp -o CMakeFiles/ClientSide.dir/PacketHandler.cpp.s
+
 # Object files for target ClientSide
 ClientSide_OBJECTS = \
-"CMakeFiles/ClientSide.dir/main.cpp.o"
+"CMakeFiles/ClientSide.dir/main.cpp.o" \
+"CMakeFiles/ClientSide.dir/ClientManager.cpp.o" \
+"CMakeFiles/ClientSide.dir/Sender.cpp.o" \
+"CMakeFiles/ClientSide.dir/Receiver.cpp.o" \
+"CMakeFiles/ClientSide.dir/PacketHandler.cpp.o"
 
 # External object files for target ClientSide
 ClientSide_EXTERNAL_OBJECTS =
 
 ClientSide: CMakeFiles/ClientSide.dir/main.cpp.o
+ClientSide: CMakeFiles/ClientSide.dir/ClientManager.cpp.o
+ClientSide: CMakeFiles/ClientSide.dir/Sender.cpp.o
+ClientSide: CMakeFiles/ClientSide.dir/Receiver.cpp.o
+ClientSide: CMakeFiles/ClientSide.dir/PacketHandler.cpp.o
 ClientSide: CMakeFiles/ClientSide.dir/build.make
 ClientSide: CMakeFiles/ClientSide.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ClientSide"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ClientSide"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ClientSide.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

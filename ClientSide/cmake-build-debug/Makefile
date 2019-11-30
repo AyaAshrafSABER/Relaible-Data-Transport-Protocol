@@ -123,6 +123,114 @@ ClientSide/fast:
 	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/build
 .PHONY : ClientSide/fast
 
+ClientManager.o: ClientManager.cpp.o
+
+.PHONY : ClientManager.o
+
+# target to build an object file
+ClientManager.cpp.o:
+	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/ClientManager.cpp.o
+.PHONY : ClientManager.cpp.o
+
+ClientManager.i: ClientManager.cpp.i
+
+.PHONY : ClientManager.i
+
+# target to preprocess a source file
+ClientManager.cpp.i:
+	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/ClientManager.cpp.i
+.PHONY : ClientManager.cpp.i
+
+ClientManager.s: ClientManager.cpp.s
+
+.PHONY : ClientManager.s
+
+# target to generate assembly for a file
+ClientManager.cpp.s:
+	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/ClientManager.cpp.s
+.PHONY : ClientManager.cpp.s
+
+PacketHandler.o: PacketHandler.cpp.o
+
+.PHONY : PacketHandler.o
+
+# target to build an object file
+PacketHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/PacketHandler.cpp.o
+.PHONY : PacketHandler.cpp.o
+
+PacketHandler.i: PacketHandler.cpp.i
+
+.PHONY : PacketHandler.i
+
+# target to preprocess a source file
+PacketHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/PacketHandler.cpp.i
+.PHONY : PacketHandler.cpp.i
+
+PacketHandler.s: PacketHandler.cpp.s
+
+.PHONY : PacketHandler.s
+
+# target to generate assembly for a file
+PacketHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/PacketHandler.cpp.s
+.PHONY : PacketHandler.cpp.s
+
+Receiver.o: Receiver.cpp.o
+
+.PHONY : Receiver.o
+
+# target to build an object file
+Receiver.cpp.o:
+	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/Receiver.cpp.o
+.PHONY : Receiver.cpp.o
+
+Receiver.i: Receiver.cpp.i
+
+.PHONY : Receiver.i
+
+# target to preprocess a source file
+Receiver.cpp.i:
+	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/Receiver.cpp.i
+.PHONY : Receiver.cpp.i
+
+Receiver.s: Receiver.cpp.s
+
+.PHONY : Receiver.s
+
+# target to generate assembly for a file
+Receiver.cpp.s:
+	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/Receiver.cpp.s
+.PHONY : Receiver.cpp.s
+
+Sender.o: Sender.cpp.o
+
+.PHONY : Sender.o
+
+# target to build an object file
+Sender.cpp.o:
+	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/Sender.cpp.o
+.PHONY : Sender.cpp.o
+
+Sender.i: Sender.cpp.i
+
+.PHONY : Sender.i
+
+# target to preprocess a source file
+Sender.cpp.i:
+	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/Sender.cpp.i
+.PHONY : Sender.cpp.i
+
+Sender.s: Sender.cpp.s
+
+.PHONY : Sender.s
+
+# target to generate assembly for a file
+Sender.cpp.s:
+	$(MAKE) -f CMakeFiles/ClientSide.dir/build.make CMakeFiles/ClientSide.dir/Sender.cpp.s
+.PHONY : Sender.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ClientSide"
 	@echo "... edit_cache"
+	@echo "... ClientManager.o"
+	@echo "... ClientManager.i"
+	@echo "... ClientManager.s"
+	@echo "... PacketHandler.o"
+	@echo "... PacketHandler.i"
+	@echo "... PacketHandler.s"
+	@echo "... Receiver.o"
+	@echo "... Receiver.i"
+	@echo "... Receiver.s"
+	@echo "... Sender.o"
+	@echo "... Sender.i"
+	@echo "... Sender.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
