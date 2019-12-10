@@ -111,6 +111,12 @@
 		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/ServerManager.h">
 			<Option target="ServerSide"/>
 		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/Utilities.cpp">
+			<Option target="ServerSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/Utilities.h">
+			<Option target="ServerSide"/>
+		</Unit>
 		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/main.cpp">
 			<Option target="ServerSide"/>
 		</Unit>

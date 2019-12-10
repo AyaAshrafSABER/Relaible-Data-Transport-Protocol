@@ -231,6 +231,33 @@ ServerManager.cpp.s:
 	$(MAKE) -f CMakeFiles/ServerSide.dir/build.make CMakeFiles/ServerSide.dir/ServerManager.cpp.s
 .PHONY : ServerManager.cpp.s
 
+Utilities.o: Utilities.cpp.o
+
+.PHONY : Utilities.o
+
+# target to build an object file
+Utilities.cpp.o:
+	$(MAKE) -f CMakeFiles/ServerSide.dir/build.make CMakeFiles/ServerSide.dir/Utilities.cpp.o
+.PHONY : Utilities.cpp.o
+
+Utilities.i: Utilities.cpp.i
+
+.PHONY : Utilities.i
+
+# target to preprocess a source file
+Utilities.cpp.i:
+	$(MAKE) -f CMakeFiles/ServerSide.dir/build.make CMakeFiles/ServerSide.dir/Utilities.cpp.i
+.PHONY : Utilities.cpp.i
+
+Utilities.s: Utilities.cpp.s
+
+.PHONY : Utilities.s
+
+# target to generate assembly for a file
+Utilities.cpp.s:
+	$(MAKE) -f CMakeFiles/ServerSide.dir/build.make CMakeFiles/ServerSide.dir/Utilities.cpp.s
+.PHONY : Utilities.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -279,6 +306,9 @@ help:
 	@echo "... ServerManager.o"
 	@echo "... ServerManager.i"
 	@echo "... ServerManager.s"
+	@echo "... Utilities.o"
+	@echo "... Utilities.i"
+	@echo "... Utilities.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

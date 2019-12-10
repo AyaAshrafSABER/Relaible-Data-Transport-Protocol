@@ -12,20 +12,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64e1bf3f-6bed-4126-9fa9-3967062d625b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ClientSide/ClientManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/ClientManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/ClientManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/ClientManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/Packet.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/Packet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/Receiver.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/Receiver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/ClientManager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/ClientManager.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/PacketHandler.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/PacketHandler.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/Receiver.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/Receiver.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/Sender.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/Sender.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/ClientSide" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/ClientSide" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utilities.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utilities.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Packet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PacketHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PacketHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PacketHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/PacketHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Receiver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Receiver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Receiver.h" beforeDir="false" afterPath="$PROJECT_DIR$/Receiver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sender.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sender.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sender.h" beforeDir="false" afterPath="$PROJECT_DIR$/Sender.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ServerSide.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ServerSide.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ServerSide.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ServerSide.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ServerSide.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ServerSide.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ServerSide.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ServerSide.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ServerSide.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ServerSide.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ServerSide.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ServerSide.cbp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +96,7 @@
       <workItem from="1575128272861" duration="9767000" />
       <workItem from="1575916435773" duration="3178000" />
       <workItem from="1575952356968" duration="1914000" />
-      <workItem from="1575993874134" duration="2431000" />
+      <workItem from="1575993874134" duration="4390000" />
     </task>
     <servers />
   </component>

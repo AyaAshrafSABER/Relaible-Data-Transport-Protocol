@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ServerSide.dir/Receiver.cpp.o"
   "CMakeFiles/ServerSide.dir/Sender.cpp.o"
   "CMakeFiles/ServerSide.dir/ServerManager.cpp.o"
+  "CMakeFiles/ServerSide.dir/Utilities.cpp.o"
   "CMakeFiles/ServerSide.dir/main.cpp.o"
   "ServerSide"
   "ServerSide.pdb"
