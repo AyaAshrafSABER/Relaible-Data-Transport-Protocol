@@ -4,6 +4,7 @@
 
 #include "ClientManager.h"
 #include "Sender.h"
+#include "Receiver.h"
 
 
 
@@ -62,8 +63,8 @@ void ClientManager::receive_file() {
     uint32_t number_of_packets = send_request_to_Server();
     cout << "client receive " << number_of_packets << " packet from server" << endl;
 
-    //GBN_receiver gbn(requested_file_name, sock_fd, serv_address, number_of_packets);
-    //gbn.start();
+    Receiver gbn(requested_file, sockfd, servaddr, number_of_packets);
+    gbn.GBNstart();
 
     printf("Client finished\n");
 
@@ -80,8 +81,8 @@ uint32_t ClientManager::send_request_to_Server() {
     /*
      * wait until receive ack from server
      */
-   // Ack_Server_Packet server_ack_packet =  Receiver::receive_ack_server_packet(sock_fd, serv_address);
+    Ack_Server_Packet server_ack_packet =  Receiver::receive_ack_server_packet(sockfd, servaddr);
     printf("ack received.\n");
-   // return server_ack_packet.packets_numbers;
+    return server_ack_packet.packets_numbers;
 
 }

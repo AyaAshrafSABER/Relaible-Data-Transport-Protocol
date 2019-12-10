@@ -3,16 +3,34 @@
 
 CMakeFiles/ClientSide.dir/ClientManager.cpp.o: ../ClientManager.cpp
 CMakeFiles/ClientSide.dir/ClientManager.cpp.o: ../ClientManager.h
+CMakeFiles/ClientSide.dir/ClientManager.cpp.o: ../Packet.h
+CMakeFiles/ClientSide.dir/ClientManager.cpp.o: ../PacketHandler.h
+CMakeFiles/ClientSide.dir/ClientManager.cpp.o: ../Receiver.h
+CMakeFiles/ClientSide.dir/ClientManager.cpp.o: ../Sender.h
+CMakeFiles/ClientSide.dir/ClientManager.cpp.o: ../Utilities.h
 
+CMakeFiles/ClientSide.dir/PacketHandler.cpp.o: ../Packet.h
 CMakeFiles/ClientSide.dir/PacketHandler.cpp.o: ../PacketHandler.cpp
 CMakeFiles/ClientSide.dir/PacketHandler.cpp.o: ../PacketHandler.h
 
+CMakeFiles/ClientSide.dir/Receiver.cpp.o: ../Packet.h
+CMakeFiles/ClientSide.dir/Receiver.cpp.o: ../PacketHandler.h
 CMakeFiles/ClientSide.dir/Receiver.cpp.o: ../Receiver.cpp
 CMakeFiles/ClientSide.dir/Receiver.cpp.o: ../Receiver.h
+CMakeFiles/ClientSide.dir/Receiver.cpp.o: ../Sender.h
+CMakeFiles/ClientSide.dir/Receiver.cpp.o: ../Utilities.h
 
+CMakeFiles/ClientSide.dir/Sender.cpp.o: ../Packet.h
 CMakeFiles/ClientSide.dir/Sender.cpp.o: ../Sender.cpp
 CMakeFiles/ClientSide.dir/Sender.cpp.o: ../Sender.h
 
+CMakeFiles/ClientSide.dir/Utilities.cpp.o: ../Packet.h
+CMakeFiles/ClientSide.dir/Utilities.cpp.o: ../PacketHandler.h
+CMakeFiles/ClientSide.dir/Utilities.cpp.o: ../Utilities.cpp
+CMakeFiles/ClientSide.dir/Utilities.cpp.o: ../Utilities.h
+
 CMakeFiles/ClientSide.dir/main.cpp.o: ../ClientManager.h
+CMakeFiles/ClientSide.dir/main.cpp.o: ../Packet.h
+CMakeFiles/ClientSide.dir/main.cpp.o: ../PacketHandler.h
 CMakeFiles/ClientSide.dir/main.cpp.o: ../main.cpp
 

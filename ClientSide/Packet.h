@@ -7,8 +7,6 @@
 #ifndef CLIENTSIDE_PACKET_H
 #define CLIENTSIDE_PACKET_H
 
-#endif //CLIENTSIDE_PACKET_H
-
 
 /* Data-only packets */
  struct Packet {
@@ -31,3 +29,5 @@ struct Ack_Packet {
 struct Ack_Server_Packet {
     uint32_t packets_numbers;
 };
+
+#endif //CLIENTSIDE_PACKET_H

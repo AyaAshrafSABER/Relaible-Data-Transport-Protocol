@@ -16,7 +16,6 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "Packet.h"
 #include "PacketHandler.h"
 
 using namespace std;

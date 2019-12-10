@@ -40,7 +40,6 @@ public:
     static Ack_Server_Packet receive_ack_server_packet(int socket_fd, struct sockaddr_in socket_address);
 };
 
-};
 
 
 #endif //CLIENTSIDE_RECEIVER_H
