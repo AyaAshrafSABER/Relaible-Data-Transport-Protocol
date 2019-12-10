@@ -26,3 +26,8 @@ struct Ack_Packet {
     uint16_t len;
     uint32_t ackno;
 };
+
+/* Ack from server including the number of packets of the desired file */
+struct Ack_Server_Packet {
+    uint32_t packets_numbers;
+};

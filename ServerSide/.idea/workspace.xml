@@ -12,30 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64e1bf3f-6bed-4126-9fa9-3967062d625b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ClientSide/Utilities.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientSide/Utilities.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/ClientManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/ClientManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/ClientManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/ClientManager.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientSide/Packet.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/Packet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/PacketHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/PacketHandler.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/PacketHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/PacketHandler.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientSide/Receiver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/Receiver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/Sender.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/Sender.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/Sender.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/Sender.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/ClientSide.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/ClientSide" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/ClientSide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/ClientSide.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/ClientSide.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSide/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientSide/Receiver.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSide/Receiver.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
