@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/ClientManager.cpp
-ClientManager.h
-/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/ClientManager.h
-
 /home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/ClientManager.h
 stdio.h
 -

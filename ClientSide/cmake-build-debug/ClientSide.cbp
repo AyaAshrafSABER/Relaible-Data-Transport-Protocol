@@ -111,6 +111,12 @@
 		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Sender.h">
 			<Option target="ClientSide"/>
 		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Utilities.cpp">
+			<Option target="ClientSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/Utilities.h">
+			<Option target="ClientSide"/>
+		</Unit>
 		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/main.cpp">
 			<Option target="ClientSide"/>
 		</Unit>

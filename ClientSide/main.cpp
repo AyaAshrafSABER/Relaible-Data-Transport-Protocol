@@ -33,6 +33,7 @@ int main(){
     cout<< req_file<<endl;
     ClientManager *cm = new ClientManager(ip, port, req_file);
     cm->run_client();
+    cm->receive_file();
     return 0;
 
 }

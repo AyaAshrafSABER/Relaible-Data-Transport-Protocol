@@ -16,17 +16,23 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#define MAX_BUFFER 1024
+#include "Packet.h"
+#include "PacketHandler.h"
 
 using namespace std;
 
 class ClientManager {
 public:
+    int sockfd;
+    sockaddr_in	servaddr;
     string ip_address;
     int port_number;
     string requested_file;
     ClientManager(string ip, int port, string file);
     void run_client();
+
+    void receive_file();
+
 private:
     int init_socket();
 
@@ -34,6 +40,8 @@ private:
     struct sockaddr_in init_server();
 
     void closeClient(int sockfd);
+
+    uint32_t send_request_to_Server();
 };
 
 

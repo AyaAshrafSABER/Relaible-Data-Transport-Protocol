@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ClientSide.dir/PacketHandler.cpp.o"
   "CMakeFiles/ClientSide.dir/Receiver.cpp.o"
   "CMakeFiles/ClientSide.dir/Sender.cpp.o"
+  "CMakeFiles/ClientSide.dir/Utilities.cpp.o"
   "CMakeFiles/ClientSide.dir/main.cpp.o"
   "ClientSide"
   "ClientSide.pdb"

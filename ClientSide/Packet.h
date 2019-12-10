@@ -11,7 +11,7 @@
 
 
 /* Data-only packets */
- struct packet {
+ struct Packet {
      /* Header */
     uint16_t cksum; /* Optional bonus part */
     uint16_t len;
@@ -21,7 +21,7 @@
  };
 
 /* Ack-only packets are only 8 bytes */
-struct ack_packet {
+struct Ack_Packet {
     uint16_t cksum; /* Optional bonus part */
     uint16_t len;
     uint32_t ackno;
