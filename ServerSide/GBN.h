@@ -25,6 +25,7 @@
 
 class GBN {
     int base = 0;
+    ofstream myfile;
     int next_seq_num = 0;
     RandomLoss* randomizer;
     clock_t timer = 0;

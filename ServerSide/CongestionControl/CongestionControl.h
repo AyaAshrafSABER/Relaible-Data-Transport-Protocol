@@ -10,16 +10,17 @@
 
 class CongestionControl {
 private:
-    int window_size;
+    float window_size;
     int threshold;
     STATE self;
 
 public:
-    CongestionControl(int wsz, int threshold);
+    CongestionControl(float wsz, int threshold);
     STATE update_window_size(std::string event);
     void set_Wsz(int window_size);
     void set_threshold(int threhold);
-    int getWindowSize();
+
+    float getWindowSize();
     int getThreshold();
 
 };

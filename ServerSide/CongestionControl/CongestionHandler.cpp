@@ -13,7 +13,7 @@ CongestionHandler::CongestionHandler() {
     this->curr_state = SLOW_START;
 }
 
-int CongestionHandler::update_window_size(std::string event) {
+float CongestionHandler::update_window_size(std::string event) {
     if(curr_state == SLOW_START) {
         curr_state = slowstart->update_window_size(event);
         window_size = slowstart->getWindowSize();
@@ -36,7 +36,7 @@ int CongestionHandler::update_window_size(std::string event) {
     return window_size;
 }
 
-int CongestionHandler::get_curr_window_size() {
+float CongestionHandler::get_curr_window_size() {
     return window_size;
 }
 

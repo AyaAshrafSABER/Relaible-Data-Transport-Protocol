@@ -3,7 +3,7 @@
 //
 
 #include "Slowstart.h"
-Slowstart::Slowstart(int wsz, int threshold) {
+Slowstart::Slowstart(float wsz, int threshold) {
     this->window_size = wsz;
     this->threshold = threshold;
     self = SLOW_START;
@@ -14,13 +14,13 @@ STATE Slowstart::update_window_size(std::string event) {
   * decrease threshold and remain in slow start state */
     if(event == "TIMEOUT" || event == "DUP")
     {
-        threshold = std::max(threshold, window_size / 2) ;
+        threshold = threshold > window_size/2 ? threshold : window_size/2 ;//std::max(threshold, window_size / 2) ;
         window_size = 1 ;
     }
         /* acknowledgment is received, increase window size by MSS every ACK*/
     else if(event == "ACK")
     {
-        window_size *= 2 ;
+        window_size += 1 ;
     }
 
     /* when windows reach threshold transfer state to congestion control */
@@ -35,7 +35,7 @@ int Slowstart::getThreshold() {
     return threshold;
 }
 
-int Slowstart::getWindowSize() {
+float Slowstart::getWindowSize() {
     return window_size;
 }
 

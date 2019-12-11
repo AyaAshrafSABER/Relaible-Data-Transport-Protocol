@@ -2,9 +2,10 @@
 // Created by sohayla on 10/12/19.
 //
 
+#include <cmath>
 #include "CongestionControl.h"
 
-CongestionControl::CongestionControl(int wsz, int threshold) {
+CongestionControl::CongestionControl(float wsz, int threshold) {
     this->window_size = wsz;
     this->threshold = threshold;
     self = CONGESTION_CONTROL;
@@ -32,7 +33,9 @@ STATE CongestionControl::update_window_size(std::string event) {
              * just a single MSS every RTT */
         else if(event == "ACK")
         {
-            window_size =  std::min(window_size + 1, MAX_WINDOW_SZ) ;
+            float addition = 1/floor(window_size);
+            window_size = window_size+addition < MAX_WINDOW_SZ ? window_size+addition : MAX_WINDOW_SZ;
+            //std::min(window_size + addition , MAX_WINDOW_SZ);
         }
 
         return self ;
@@ -42,7 +45,7 @@ int CongestionControl::getThreshold() {
     return threshold;
 }
 
-int CongestionControl::getWindowSize() {
+float CongestionControl::getWindowSize() {
     return window_size;
 }
 
