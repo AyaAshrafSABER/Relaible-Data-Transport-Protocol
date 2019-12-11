@@ -1,3 +1,4 @@
+
 //
 // Created by saber on ٣٠‏/١١‏/٢٠١٩.
 //
@@ -8,11 +9,13 @@
 Packet Receiver::receive_packet(int socket_fd, struct sockaddr_in &socket_address) {
     Packet packet;
     socklen_t addrlen = sizeof(socket_address);
+    printf("Socket address %d \n", socket_fd);
     //A test needed.
     int bytes = recvfrom(socket_fd, &packet, sizeof(packet),
-                         MSG_WAITALL, (struct sockaddr *) &socket_address, &addrlen);
-
-    if(bytes != sizeof(Packet) || bytes <= 0) {
+                         0, (struct sockaddr *) &socket_address, &addrlen);
+    printf("DONE Recieving packet. \n");
+    std::cout << sizeof(packet) << std::endl;
+    if(bytes != sizeof(packet) || bytes <= 0) {
         perror("Not received all the packet data");
         //status = 0;
         //return Packet();

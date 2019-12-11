@@ -26,7 +26,7 @@ void Receiver::GBNstart(){
             utilities.write_chunk(string(pkt.data, pkt.len));
             recvd++;
         }
-        if(recvd == total_packets){
+        if(recvd == total_packets - 1){
             break;
         }
     }
@@ -50,7 +50,7 @@ Packet Receiver::receive_packet(int socket_fd, struct sockaddr_in socket_address
     socklen_t addrlen = sizeof(socket_address);
     //make it a blocking for some time only.
     int bytes = recvfrom(socket_fd, &packet, sizeof(packet),
-                         MSG_WAITALL, (struct sockaddr *) &socket_address, &addrlen);
+                         0, (struct sockaddr *) &socket_address, &addrlen);
     if(bytes != sizeof(Packet) || bytes <= 0) {
         perror("Not received all the packet data");
         return Packet();
@@ -67,7 +67,7 @@ Ack_Server_Packet Receiver::receive_ack_server_packet(int socket_fd, struct sock
     Ack_Server_Packet ack_server_packet;
     socklen_t addrlen = sizeof(socket_address);
     int bytes = recvfrom(socket_fd, &ack_server_packet, sizeof(ack_server_packet),
-                         MSG_WAITALL, (struct sockaddr*)&socket_address, &addrlen);
+                         0, (struct sockaddr*)&socket_address, &addrlen);
     if(bytes != sizeof(Ack_Server_Packet)){
         std::perror("Not received all the packet data");
     }

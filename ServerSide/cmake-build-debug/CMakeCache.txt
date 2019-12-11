@@ -218,6 +218,12 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
 //Value Computed by CMake
+RDToverUDP_BINARY_DIR:STATIC=/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug
+
+//Value Computed by CMake
+RDToverUDP_SOURCE_DIR:STATIC=/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide
+
+//Value Computed by CMake
 ServerSide_BINARY_DIR:STATIC=/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug
 
 //Value Computed by CMake

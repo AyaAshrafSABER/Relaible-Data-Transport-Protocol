@@ -27,6 +27,7 @@ public:
 private:
     int create_socket();
     int server_bind(sockaddr_in in, sockaddr_in sockaddrIn);
+    void run();
 };
 
 

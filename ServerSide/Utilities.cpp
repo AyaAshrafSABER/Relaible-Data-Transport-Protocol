@@ -69,3 +69,8 @@ int Utilities::get_total_packet_number(){
 void Utilities::close(){
     fclose(file);
 }
+
+void Utilities::set_chunk_index(int index) {
+    this->current_chunk_index = index;
+
+}

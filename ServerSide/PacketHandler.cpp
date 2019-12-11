@@ -55,3 +55,6 @@ uint16_t PacketHandler::calculate_ack_packet_checksum(Ack_Packet packet){
 bool PacketHandler::compare_ack_packet_checksum(Ack_Packet packet){
     return packet.cksum == calculate_ack_packet_checksum(packet);
 }
+
+
+

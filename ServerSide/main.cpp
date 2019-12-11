@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
     string line;
-    char filename1[] = "/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/server.in";
+    char filename1[] = "server.in";
     ifstream myfile (filename1);
     cout << "Read value from Server.in" << '\n';
     int port;

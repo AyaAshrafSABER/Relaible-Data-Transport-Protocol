@@ -84,6 +84,33 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/CongestionControl.cpp">
+			<Option target="ServerSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/CongestionControl.h">
+			<Option target="ServerSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/CongestionHandler.cpp">
+			<Option target="ServerSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/CongestionHandler.h">
+			<Option target="ServerSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/Slowstart.cpp">
+			<Option target="ServerSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/Slowstart.h">
+			<Option target="ServerSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/State.h">
+			<Option target="ServerSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/GBN.cpp">
+			<Option target="ServerSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/GBN.h">
+			<Option target="ServerSide"/>
+		</Unit>
 		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/Packet.h">
 			<Option target="ServerSide"/>
 		</Unit>
@@ -91,6 +118,12 @@
 			<Option target="ServerSide"/>
 		</Unit>
 		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/PacketHandler.h">
+			<Option target="ServerSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/RandomLoss.cpp">
+			<Option target="ServerSide"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/RandomLoss.h">
 			<Option target="ServerSide"/>
 		</Unit>
 		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/Receiver.cpp">

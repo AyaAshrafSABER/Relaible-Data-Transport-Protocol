@@ -35,6 +35,7 @@ public:
     int get_file_size();
     bool is_finished();
     int get_current_chunk_index();
+    void set_chunk_index(int index);
     Packet get_current_chunk_data();
     Packet get_chunk_data(int chunk_index);
     void advance_chunk_pointer();

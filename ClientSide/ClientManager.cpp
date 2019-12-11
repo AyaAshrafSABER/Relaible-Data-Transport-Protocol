@@ -26,11 +26,12 @@ ClientManager::ClientManager(string ip, int port, string file) {
     ClientManager::ip_address = ip;
     ClientManager::port_number = port;
     ClientManager::requested_file = file;
+    std::cout << ip_address << "/ " << port << "/ " << requested_file << std::endl;
 }
 
 void ClientManager::run_client() {
      sockfd = init_socket();
-    struct sockaddr_in	servaddr = init_server();
+     servaddr = init_server();
 
 }
 
@@ -75,8 +76,11 @@ uint32_t ClientManager::send_request_to_Server() {
     printf("Start sending req.\n");
     // send the file name packet
     Packet packet = PacketHandler::create_packet(strdup(requested_file.c_str()), 0 , requested_file.size());
+   // Ack_Packet packet = PacketHandler::create_ack_packet(0, 5);
     Sender sender = Sender(servaddr);
     sender.send_packet(packet, sockfd);
+    printf("Socket address %d", sockfd);
+
     printf("req sent.\n");
     /*
      * wait until receive ack from server

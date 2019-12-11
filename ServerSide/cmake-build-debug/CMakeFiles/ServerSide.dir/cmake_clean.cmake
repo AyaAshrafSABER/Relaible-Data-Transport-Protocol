@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ServerSide.dir/CongestionControl/CongestionControl.cpp.o"
+  "CMakeFiles/ServerSide.dir/CongestionControl/CongestionHandler.cpp.o"
+  "CMakeFiles/ServerSide.dir/CongestionControl/Slowstart.cpp.o"
+  "CMakeFiles/ServerSide.dir/GBN.cpp.o"
   "CMakeFiles/ServerSide.dir/PacketHandler.cpp.o"
+  "CMakeFiles/ServerSide.dir/RandomLoss.cpp.o"
   "CMakeFiles/ServerSide.dir/Receiver.cpp.o"
   "CMakeFiles/ServerSide.dir/Sender.cpp.o"
   "CMakeFiles/ServerSide.dir/ServerManager.cpp.o"

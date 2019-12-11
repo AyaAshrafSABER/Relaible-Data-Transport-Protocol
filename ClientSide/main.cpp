@@ -17,7 +17,7 @@ using namespace std;
 // Driver code
 int main(){
 
-    char filename1[] = "/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ClientSide/client.in";
+    char filename1[] = "client.in";
     ifstream myfile (filename1);
     cout << "Read value from Server.in" << '\n';
     int port;
@@ -35,5 +35,4 @@ int main(){
     cm->run_client();
     cm->receive_file();
     return 0;
-
 }

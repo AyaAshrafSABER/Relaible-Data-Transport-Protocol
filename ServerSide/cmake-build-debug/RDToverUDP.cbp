@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RDToverUDP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main.cpp">
+				<Option output="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/main.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.cpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main.cpp/fast">
+				<Option output="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/main.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/CongestionControl.cpp">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/CongestionControl.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/CongestionHandler.cpp">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/CongestionHandler.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/Slowstart.cpp">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/Slowstart.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CongestionControl/State.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/GBN.cpp">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/GBN.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/Packet.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/PacketHandler.cpp">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/PacketHandler.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/RandomLoss.cpp">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/RandomLoss.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/Receiver.cpp">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/Receiver.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/Sender.cpp">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/Sender.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/ServerManager.cpp">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/ServerManager.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/Utilities.cpp">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/Utilities.h">
+			<Option target="main.cpp"/>
+		</Unit>
+		<Unit filename="/home/saber/CLionProjects/Relaible-Data-Transport-Protocol/ServerSide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
