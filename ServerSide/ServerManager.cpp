@@ -79,26 +79,28 @@ void ServerManager::run() {
     cout << packet.data <<endl;
     string file_name(packet.data, packet.len);
     Utilities file_utility(file_name.c_str(), CHUNK_SIZE);
-
     int number_of_packets = ceil(file_utility.get_file_size() * 1.0 / CHUNK_SIZE);
     // sending the ack with the number of packets which will be sended
-
+    cout << number_of_packets << " sarah" << endl;
     Sender sender = Sender(client_address);
     Ack_Server_Packet server_ack_packet;
     server_ack_packet.packets_numbers = number_of_packets;
     sender.send_server_ack(server_ack_packet, sockfd);
-    cout << "file size is " << file_utility.get_file_size() << endl;
-    cout << "transfering " << ceil(1.0 * file_utility.get_file_size() / CHUNK_SIZE) << " packet" <<endl;
-    // call the desired method to send the file
-    file_utility.close();
-    auto start = std::chrono::high_resolution_clock::now();
-    // GBN
-    GBN gbn(file_name, sockfd,random_generator_seed, data_loss_prob, client_address,number_of_packets);
+    if(file_utility.get_file_size()) {
 
-    gbn.start();
-    printf("Finished Client\n");
-    auto finish = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double> elapsed = finish - start;
-    std::cout << "Elapsed time: " << elapsed.count() << " s\n";
+        cout << "file size is " << file_utility.get_file_size() << endl;
+        cout << "transfering " << ceil(1.0 * file_utility.get_file_size() / CHUNK_SIZE) << " packet" << endl;
+        // call the desired method to send the file
+        file_utility.close();
+        auto start = std::chrono::high_resolution_clock::now();
+        // GBN
+        GBN gbn(file_name, sockfd, random_generator_seed, data_loss_prob, client_address, number_of_packets);
+
+        gbn.start();
+        printf("Finished Client\n");
+        auto finish = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<double> elapsed = finish - start;
+        std::cout << "Elapsed time: " << elapsed.count() << " s\n";
+    }
 
 }

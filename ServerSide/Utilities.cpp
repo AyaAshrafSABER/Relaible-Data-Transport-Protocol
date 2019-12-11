@@ -25,6 +25,9 @@ Utilities::Utilities(const char* file_path, int chunk_size) {
 }
 
 int Utilities::get_file_size() {
+    if (!file) {
+        return 0;
+    }
     fseek(file, 0, SEEK_END);
     int x = ftell(file);
     rewind(file);
@@ -74,3 +77,5 @@ void Utilities::set_chunk_index(int index) {
     this->current_chunk_index = index;
 
 }
+
+

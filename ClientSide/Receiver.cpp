@@ -14,7 +14,6 @@ Receiver::Receiver(string file_name, int socket_fd, struct sockaddr_in server_ad
 
 }
 
-
 void Receiver::GBNstart(){
     Sender sender(server_addr);
     while(1){
@@ -40,10 +39,6 @@ bool Receiver::is_expected(Packet pkt){
     return pkt.seqno == expected_seq;
 }
 
-
-
-
-
 // fill the socket address with the sender address
 Packet Receiver::receive_packet(int socket_fd, struct sockaddr_in socket_address) {
     Packet packet;
@@ -59,8 +54,6 @@ Packet Receiver::receive_packet(int socket_fd, struct sockaddr_in socket_address
     cout << "packet size is " << packet.len << endl;
     return packet;
 }
-
-
 
 // fill the socket address with the sender address
 Ack_Server_Packet Receiver::receive_ack_server_packet(int socket_fd, struct sockaddr_in socket_address) {

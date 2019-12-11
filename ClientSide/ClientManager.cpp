@@ -63,10 +63,10 @@ void ClientManager::receive_file() {
     //start logic  creat packet and sent to the server
     uint32_t number_of_packets = send_request_to_Server();
     cout << "client receive " << number_of_packets << " packet from server" << endl;
-
-    Receiver gbn(requested_file, sockfd, servaddr, number_of_packets);
-    gbn.GBNstart();
-
+    if(number_of_packets) {
+        Receiver gbn(requested_file, sockfd, servaddr, number_of_packets);
+        gbn.GBNstart();
+    }
     printf("Client finished\n");
 
     closeClient(sockfd);

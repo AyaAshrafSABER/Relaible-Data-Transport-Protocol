@@ -9,6 +9,10 @@
 
 
 void GBN::start() {
+    if(total_packets == 0) {
+        return;
+    }
+    cout << "Total Packets : " << total_packets << endl;
     Packet pkt;
     while (1) {
         if(base == total_packets)
