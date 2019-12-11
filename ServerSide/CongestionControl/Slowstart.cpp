@@ -20,7 +20,7 @@ STATE Slowstart::update_window_size(std::string event) {
         /* acknowledgment is received, increase window size by MSS every ACK*/
     else if(event == "ACK")
     {
-        window_size += 2 ;
+        window_size *= 2 ;
     }
 
     /* when windows reach threshold transfer state to congestion control */

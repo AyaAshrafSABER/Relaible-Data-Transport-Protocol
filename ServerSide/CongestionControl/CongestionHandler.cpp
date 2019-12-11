@@ -40,6 +40,3 @@ int CongestionHandler::get_curr_window_size() {
     return window_size;
 }
 
-STATE CongestionHandler::getCurrentState() {
-    return curr_state;
-}

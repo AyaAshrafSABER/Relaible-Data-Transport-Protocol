@@ -26,7 +26,7 @@ void Receiver::GBNstart(){
             utilities.write_chunk(string(pkt.data, pkt.len));
             recvd++;
         }
-        if(recvd == total_packets - 1){
+        if(recvd == total_packets ){
             break;
         }
     }

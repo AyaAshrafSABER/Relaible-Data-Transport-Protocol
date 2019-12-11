@@ -9,7 +9,6 @@
 
 
 void GBN::start() {
-    bool sent = true;
     Packet pkt;
     while (1) {
         if(base == total_packets)
@@ -17,19 +16,16 @@ void GBN::start() {
         if(file_utility.get_current_chunk_index() < total_packets) {
             // int remaining = min(total_packets-base, congestionHandler->get_curr_window_size());
             pkt = file_utility.get_current_chunk_data();
-
-
-                if (pkt.len != -1 && !randomizer->can_send(pkt.seqno)) {
+            if (pkt.len != -1 && !randomizer->can_send(pkt.seqno)) {
                     sentpkt.push(pkt);
                     //check timeout
                     time_out();
-                    sent = false;
                     continue;
-                }
+            }
 
             //send.
             sentpkt.push(pkt);
-            sent = gbn_send(pkt);
+             gbn_send(pkt);
         }
         //check timeout
         time_out();
@@ -127,14 +123,10 @@ GBN::GBN(std::string file_name, int client_fd, int seed, double PLP, struct sock
     this->plp = PLP;
     this->client_socket = client_socket;
     //sentpkt.resize(fileReader.get_file_size() + 1);
+    //Timeout threshold
     this->threshold = 3;
     this->next_seq_num = 0;
     duplicateAcks = 0;
-    std::ifstream infile("control.txt");
-    int a;
-    while(infile >> a){
-        window_changes.push_back(a);
-    }
     randomizer = new RandomLoss(plp, seed, size);
     total_packets = file_utility.get_total_packet_number();
     congestionHandler = new CongestionHandler();
